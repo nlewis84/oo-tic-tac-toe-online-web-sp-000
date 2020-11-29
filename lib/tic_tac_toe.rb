@@ -94,7 +94,6 @@ class TicTacToe
   
   def play
     turn until over?
-    end 
     if won?
       winner == "X" || winner == "O" 
       puts "Congratulations #{winner}!" 
