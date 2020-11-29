@@ -93,8 +93,7 @@ class TicTacToe
   end
   
   def play
-    until over?
-      turn
+    turn until over?
     end 
     if won?
       winner == "X" || winner == "O" 
